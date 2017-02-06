@@ -1,0 +1,36 @@
+group 'com.godzola.geo-search-service'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+group 'com.godzola.geo-search'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    // https://mvnrepository.com/artifact/com.vividsolutions/jts
+    compile group: 'com.vividsolutions', name: 'jts', version: '1.13'
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    compile group: 'org.postgresql', name: 'postgresql', version: '9.4-1201-jdbc41'
+    // https://mvnrepository.com/artifact/javax.json/javax.json-api
+    //compile group: 'javax.json', name: 'javax.json-api', version: '1.0'
+    compile "org.glassfish:javax.json:1.0.4"
+
+}

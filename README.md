@@ -10,7 +10,7 @@ This is a quickk and dirty REST service I set up that does some pretty useful ge
 /latlon?lat=23.456&lon=43.567
 ```
 
-They return some simple json strings in the body of the response. Among the data that come back are the polygon rings and printable names for different geographic areas. I.e. you could use the gos info from a tablet or phone and display its location on a map with the surrounding geographic area named and colored.
+They return some simple json strings in the body of the response. Among the data that come back are the polygon rings and printable names for different geographic areas. I.e. you could use the geo info from a tablet or phone and display its location on a map with the surrounding geographic area named and colored.
 
 Here are some instructions to get you up and running.
 
